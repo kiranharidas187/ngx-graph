@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import * as shape from 'd3-shape';
-// import { element } from '@angular/core/src/render3';
+import * as shape from 'd3';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,7 +9,7 @@ import * as shape from 'd3-shape';
 export class AppComponent {
 
   constructor() {
-    
+
   }
   title = 'test2';
   nodeCount = 13;

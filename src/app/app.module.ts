@@ -11,10 +11,11 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     BrowserModule,
-    NgxGraphModule,
-    BrowserAnimationsModule,
-    NgxChartsModule,
     CommonModule,
+    NgxGraphModule,
+    NgxChartsModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
