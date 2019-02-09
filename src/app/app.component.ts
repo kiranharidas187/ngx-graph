@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import * as shape from 'd3-shape';
-import { element } from '@angular/core/src/render3';
+// import { element } from '@angular/core/src/render3';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  constructor() {
+    
+  }
   title = 'test2';
   nodeCount = 13;
   changeText=false;
